@@ -1,0 +1,65 @@
+.container{
+    width: fit-content;
+    background-color: white;
+    border-radius: 50px;
+    padding: 32px 30px;
+    margin-left: 600px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container-1, .container-2, .container-3, .container-4{
+    padding: 12px;
+    border-radius: 100%;
+    border: 2px solid rgb(243, 244, 246);
+    cursor: pointer;
+}
+
+.container-1{
+    background-color: lightseagreen;
+}
+
+.container-2{
+    background-color: black;
+}
+
+.container-3{
+    background-color: white;
+}
+
+.container-4{
+    background-color: rgb(47, 56, 135);
+}
+
+.container-5, .container-6{
+    width: fit-content;
+    border-radius: 50px;
+    border: 3px solid rgb(243, 244, 246);
+    padding: 4px 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container-5{
+    color: white;
+    background-color: blue;
+}
+
+.container-6:hover{
+    color: white;
+    background-color: rgb(136, 146, 235);
+}
+
+button{
+    padding: 15px;
+    border: 1px solid;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    bottom: 66%;
+    cursor: pointer;
+}

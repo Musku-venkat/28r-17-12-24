@@ -1,0 +1,114 @@
+.main{
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-1, .main-3{
+    width: 32%;
+    height: 300px;
+    padding: 15px 40px;
+    padding-bottom: 0px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    position: relative;
+}
+
+.main-2{
+    width: 32%;
+    height: 300px;
+    padding: 15px 40px;
+    background-color: rgb(47, 56, 135);
+    border-radius: 10px;
+    position: relative;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.sub-main-container{
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    display: flex;
+    display: none;
+}
+
+.sub-main-container-1{
+    flex-grow: 2;
+    background-color: lightseagreen;
+}
+
+.sub-main-container-2{
+    flex-grow: 1;
+    background-color: black;
+}
+
+.sub-main-container-3{
+    flex-grow: 1;
+    background-color:rgb(47, 56, 135);
+}
+
+.main-2 .sub-main-container-3{
+    flex-grow: 1;
+    background-color: lightseagreen;
+}
+
+.main-2 .sub-main-container-1{
+    flex-grow: 2;
+    background-color:rgb(47, 56, 135);
+}
+
+.sub-main-container-4{
+    color: white;
+    font-size: 10px;
+    height: 100%;
+    padding: 7px;
+    background-color: rgb(47, 56, 135);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main-1:hover > .sub-main-container, .main-3:hover>.sub-main-container, .main-2:hover>.sub-main-container{
+    display: flex;
+}
+
+.sub-main-1, .sub-main-4, .sub-main-7{
+    text-align: end;
+    cursor: pointer;
+}
+
+.sub-main-2, .sub-main-5, .sub-main-8{
+    font-size: 25px; 
+    font-weight: bolder;
+    margin: 60px 10px;  
+
+}
+
+.sub-main-3, .sub-main-9{
+    padding: 10px;
+    margin-left: 150px;
+    width: fit-content;
+    border-radius: 30px;
+    background-color: rgb(47, 56, 135);
+    cursor: pointer;
+}
+
+.sub-main-6{
+    padding: 10px;
+    margin-left: 150px;
+    width: fit-content;
+    border-radius: 30px;
+    background-color: lightseagreen;
+    cursor: pointer;
+}

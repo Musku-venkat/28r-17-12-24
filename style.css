@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border;
+    transition: 1s ease;
+}
+
+.container, .container-1, .container-2, .container-3, .container-4, .container-5, .container-6, .container-7 {
+    width: fit-content;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-left: 250px;
+    text-align: center;
+}
+
+p{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.container>p:nth-child(even), .container-2>p:nth-child(even), .container-4>p:nth-child(even), .container-6>p:nth-child(even), .container-1>p:nth-child(odd), .container-3>p:nth-child(odd), .container-5>p:nth-child(odd), .container-7>p:nth-child(odd){
+    background-color: green;
+}
+
+.container>p:hover, .container-1>p:hover, .container-7>p:hover, .container-6>p:hover{
+    font-size: 80px;
+}
